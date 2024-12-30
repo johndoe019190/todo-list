@@ -1,0 +1,20 @@
+.task-item {
+    transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.task-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.task-text {
+    color: white;
+}
